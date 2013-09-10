@@ -30,6 +30,8 @@
         </config-file>
 
         <source-file src="src/com/phonegap/plugins/analytics/GoogleAnalyticsTracker.java" target-dir="src/com/phonegap/plugins/analytics" />
+		<source-file src="libs/libGoogleAnalytics.jar" target-dir="libs/libGoogleAnalytics" />
+		<source-file src="libs/GoogleAdMobAdsSdk-6.4.1.jar" target-dir="libs/libGoogleAnalytics" />
 
     </platform>
 
