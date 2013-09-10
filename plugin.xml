@@ -18,11 +18,11 @@
             <clobbers target="Analytics" />
         </js-module>
 
-        <config-file target="res/xml/config.xml" parent="/plugins">
+        <config-file target="res/xml/config.xml" parent="/*/plugins">
             <plugin name="GoogleAnalyticsTracker" value="com.phonegap.plugins.analytics.GoogleAnalyticsTracker" />
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/*">
+        <config-file target="AndroidManifest.xml" parent="/*/application">
             <activity android:name="com.phonegap.DroidGap" android:label="@string/app_name">
 				<intent-filter>
 				</intent-filter>
